@@ -30,3 +30,10 @@ You can check out the other options available to use with *node2vec* using:<br/>
 The supported input format is an netwrok data:
 	
     node1_id node2_id weight
+
+
+### Miscellaneous
+
+Please send any questions you might have about the code and/or the algorithm to <lee824002466@gmail.com>.
+
+*Note:* This is only a reference implementation of the *NEW* algorithm and could benefit from several performance enhancement schemes, some of which are discussed in the paper.
