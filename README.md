@@ -4,6 +4,8 @@ This repository provides a reference implementation of *NEW* as described in the
 > NEW: A Generic Learning Model for Tie Strength Prediction in Networks.<br>
 The *NEW* algorithm mainly focuses on the link prediction of undirected graph weighted network
 
+The experimental partition data required by the paper is stored under the data directory, which may be slightly deviated based on the operation of different machines.If you want to repartition the test data, please refer to the following instructions to complete the test results.
+
 ### Basic Usage
 
 #### Example
