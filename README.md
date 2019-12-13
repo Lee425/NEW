@@ -11,6 +11,16 @@ The experimental partition data required by the paper is stored under the data d
 #### Example
 To run *NEW* on celegans network, execute the following command from the project home directory:<br/>
 	``python code/main.py --input ../data/celegans.csv --cache True``
+	
+	
+NetWork             | RMSE 10'th mean |
+--------------------| :-------------: |
+UC social           | 7.31±1.04       | 
+C.elegans           | 1.5±0.63        | 
+P.blogs             | 0.34±0.01       | 
+NetScience          | 0.22±0.06       | 
+Neural network      | 5.27±0.71       | 
+Wiki                | 8.79±0.73       | 
 
 #### Options
 You can check out the other options available to use with *node2vec* using:<br/>
