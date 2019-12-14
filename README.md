@@ -36,4 +36,4 @@ The supported input format is an netwrok data:
 
 Please send any questions you might have about the code and/or the algorithm to <lee824002466@gmail.com>.
 
-*Note:* This is only a reference implementation of the *NEW* algorithm and could benefit from several performance enhancement schemes, some of which are discussed in the paper.
+*Note:* This is only a reference implementation of the *NEW* algorithm.
