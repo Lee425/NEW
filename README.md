@@ -23,7 +23,7 @@ Neural network      |  0.6   |     1e-5        |   0.205±0.006   |
 Wiki                |  1.2   |     5e-10       |   0.182±0.002   | 
  
 #### Options
-You can check out the other options available to use with *node2vec* using:<br/>
+You can check out the other options available to use with *NEW* using:<br/>
 	``python code/main.py --help``
   
 #### Input
