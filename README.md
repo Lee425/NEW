@@ -15,12 +15,12 @@ To run *NEW* on celegans network, execute the following command from the project
 	
 NetWork             | RMSE 10'th mean |
 --------------------| :-------------: |
-UC social           | 7.31±1.04       | 
-C.elegans           | 1.5±0.63        | 
-P.blogs             | 0.34±0.01       | 
-NetScience          | 0.22±0.06       | 
-Neural network      | 5.27±0.71       | 
-Wiki                | 8.79±0.73       | 
+UC social           | 0.206±0.002     | 
+C.elegans           | 0.137±0.003     | 
+P.blogs             | 0.081±0.001     | 
+NetScience          | 0.09±0.002      | 
+Neural network      | 0.205±0.006     | 
+Wiki                | 0.182±0.002     | 
 
 #### Options
 You can check out the other options available to use with *node2vec* using:<br/>
