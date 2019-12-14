@@ -10,7 +10,7 @@ The experimental partition data required by the paper is stored under the data d
 
 #### Example
 To run *NEW* on celegans network, execute the following command from the project home directory:<br/>
-	``python code/main.py --input ../data/celegans.csv --cache True --learning_rate 1e-5 --k 2.``
+	``python code/main.py --input ../data/celegans.csv --cache True --learning_rate 1e-7 --k 2.``
 	
 	
 NetWork             | RMSE 10'th mean |
