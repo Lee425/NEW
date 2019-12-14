@@ -20,7 +20,7 @@ class DataTools:
     def ori_graph(self):
         graph = nx.Graph()
         for edge in self.data:
-            graph.add_edge(int(edge[0]), int(edge[1]), weight=edge[2], first_node=int(edge[0]), second_node=int(edge[1]))
+            graph.add_edge(int(edge[0]), int(edge[1]), weight=np.exp(-1/edge[2]), first_node=int(edge[0]), second_node=int(edge[1]))
         return graph
     def train_graph(self, test_x):
         for e in test_x:
@@ -77,7 +77,7 @@ class DataTools:
             train_X[i] = [rx, ry, w]
         for i, e in enumerate(test_val):
             rx, ry = self._extract_feature(graph, int(e[0]), int(e[1]))
-            w = e[2]
+            w = np.exp(1 / -e[2])
             test_X[i] = [rx, ry, w]
 
         self.cache_data = {'train_X': train_X, 'test_X': test_X}
