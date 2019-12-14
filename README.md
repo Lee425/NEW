@@ -29,7 +29,7 @@ You can check out the other options available to use with *node2vec* using:<br/>
 #### Input
 The supported input format is an netwrok data:
 	
-    node1_id node2_id weight(The weight is normalized by formula 
+    node1_id node2_id weight
 
 
 ### Miscellaneous
