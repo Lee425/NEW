@@ -85,11 +85,11 @@ class DataTools:
         return train_X, test_X
 
     def save_split_data(self, i):
-        with open(os.path.join(self.save_dir, '{}_split_pkl'.format(i+1)), 'wb') as wf:
+        with open(os.path.join(self.save_dir, '{}_split.pkl'.format(i+1)), 'wb') as wf:
             pickle.dump(self.cache_data, wf)
 
     def load_split_data(self, i):
-        with open(os.path.join(self.save_dir, '{}_split_pkl'.format(i+1)), 'rb') as rf:
+        with open(os.path.join(self.save_dir, '{}_split.pkl'.format(i+1)), 'rb') as rf:
             return pickle.load(rf)
 
 

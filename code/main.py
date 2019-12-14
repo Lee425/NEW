@@ -10,7 +10,7 @@ parser.add_argument('--cache', type=bool, default=True, help='Whether there is c
 parser.add_argument('--k', type=float, default=0.3, help='Model parameter k value')
 parser.add_argument('--split_number', type=int, default=10, help='Number of data segmentation')
 parser.add_argument('--train_ratio', type=float, default=0.9, help='Test sample proportion')
-parser.add_argument('--learning_rate', type=float, default=1e-4)
+parser.add_argument('--learning_rate', type=float, default=1e-4, help='learning rate')
 parser.add_argument('--lam', type=float, default=0.9, help='Regularization factor')
 parser.add_argument('--epsilon', type=float, default=1e-8, help='training error')
 
@@ -21,7 +21,7 @@ celegans   [lr=1e-7, k=2. ]
 ploblogs   [lr=3e-7, k=1. ]
 ussocial   [lr=1e-5, k=0.4]
 neural     [lr=1e-4, k=0.6]
-wiki       [lr=1e-10,k=1.2]
+wiki       [lr=5e-10,k=1.2]
 '''
 
 def main(args):
